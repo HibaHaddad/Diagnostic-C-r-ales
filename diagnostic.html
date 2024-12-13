@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>étape2</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="diagnostic.css">
+  </head>
+  <body>
+    <header class="top-bar">
+      <div class="result">
+        <p id="result"></p>
+        <a href="index.html"></a>
+      </div>
+      <button class="quit-btn" id="quit-btn">✖ Quitter le diagnostic </button>
+    </header>
+    <main class="main-content">
+     <div class="background"> 
+       <div class="left-section">
+          <div class="etape2">Étape 2</div>
+          <!--progress suivant numéro de l'étape-->
+          <div class="progress-bar">
+            <div class="progress"></div>
+          </div>
+          <div class="phrase">Sur quelle partie de la plante observez-vous les symptômes ?</div>
+          <button class="back-btn" id="back-btn">⬅ Retour</button>
+        </div>
+      
+        
+      </div>
+
+    <div>
+      <button id="grain" class="button-organ" onclick="selectOrgan('grain')">
+        <img class="grain-image" src="Images/grainn.jpg">
+       
+      </button>
+      <p id="grainn">Grain</p>
+    </div>  
+
+    <div>
+      <button id="epi" class="button-organ" onclick="selectOrgan('epi')">
+        <img class="epi-image" src="Images/epi.jpg">
+      </button>
+      <p id="epii">Épi</p>
+    </div>
+
+    <div>
+      <button id="panicule" class="button-organ" onclick="selectOrgan('panicule')">
+        <img class="panicule-image" src="Images/panicule.jpg">
+      </button>
+      <p id="paniculee">panicule</p>
+    </div>
+
+    <div>
+      <button id="tige" class="button-organ" onclick="selectOrgan('tige')">
+        <img class="tige-image" src="Images/tige.jpeg">
+      </button>
+      <p id="tigee">tige</p>
+    </div>
+
+    <div>
+      <button id="racine" class="button-organ" onclick="selectOrgan('racine')">
+        <img class="racine-image" src="Images/racine.jpeg">
+      </button>
+      <p id="racinee">racine</p>
+    </div>
+      
+    <div>
+      <button id="feuille" class="button-organ" onclick="selectOrgan('feuille')">
+        <img class="feuille-image" src="Images/feuille.jpeg">
+      </button>
+      <p id="feuillee">feuille</p>
+    </div>  
+
+    <div>
+      <button id="plantules" class="button-organ" onclick="selectOrgan('plantules')">
+        <img class="plantules-image" src="Images/plantule.jpg">
+      </button>
+      <p id="plantuless">plantules</p>
+    </div> 
+     
+    <div>
+      <button id="glumes" class="button-organ" onclick="selectOrgan('glumes')">
+        <img class="glumes-image" src="Images/glume.png">
+      </button>
+      <p id="glumess">glumes</p>
+    </div> 
+
+    <div>
+      <button id="basedetige" class="button-organ" onclick="selectOrgan('basedetige')">
+        <img class="basedetige-image" src="Images/basedetige.jpeg">
+      </button>
+      <p id="basedetigee">base de tige</p>
+    </div>
+
+
+
+      
+      
+
+
+
+
+    </main>
+
+    <script src="diagnostic.js"></script>
+  </body>
+</html>

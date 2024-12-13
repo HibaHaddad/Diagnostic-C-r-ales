@@ -1,0 +1,167 @@
+.header{
+  height:150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+
+}
+.logo{
+  display: flex;
+  align-items: left;
+  height: 120px;
+  margin-left: 120px;
+  margin-right: 24px;
+  margin-top:10px;
+  margin-bottom: 10px;
+  width: 130px;
+     
+}
+#titre{
+  font-family: cursive;
+  font-size:30px;
+  padding-top:5px ;
+  color: rgb(3, 84, 5);
+}
+.header-items{
+   display: flex;
+   align-items: start;
+   justify-content: space-between;
+   flex-direction: row;
+   flex: 1;
+   padding-left: 80px;
+   padding-right: 80px;
+   
+}
+
+.actualités,
+.vidéos,
+.Qui{
+  display: flex;
+  padding-right: 150px;
+  margin-top:70px;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  font-size: larger;
+  font-family: cursive;
+  
+  
+}
+.actualités{
+  padding-right:50px;
+  padding-left: 150px;
+}
+.vidéos{
+  padding-right:90px;
+  padding-left: 150px;
+}
+.Qui{
+  padding-left: 100px;
+}
+
+.actualités:hover,
+.vidéos:hover,
+.Qui:hover{
+  cursor: pointer;
+  opacity:0.5;
+  text-decoration-line: underline;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  background-image: url('Images/wallpaper.jpg'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  
+}
+.texte-main{
+  margin-top: 20px;
+}
+.texte1{
+  padding-left: 0px;
+  padding-right: 30px;
+}
+.texte2{
+  padding-left:200px;
+}
+.texte1,
+.texte2{
+  font-family:cursive;
+  font-size:15px;
+
+}
+.site-name{
+  margin-top: 30px;
+  padding-left: 200px;
+  font-size: 80px;
+  font-family: cursive;
+  color: rgb(3, 84, 5);
+}
+select {
+  margin-top: 30px;
+  margin-left: 180px;
+  width: 250px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-align-last: center; 
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+  background: #ffffff;
+  color: #333;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+/*ce css s'effectue lorsque le curseur est sur select*/
+select:hover {
+  border-color: #45a049;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+#diagnostic-btn{
+  background-color: #115c14; 
+  color: white; 
+  font-size: 18px; 
+  font-weight: bold; 
+  padding: 15px 30px;
+  border: none; 
+  border-radius: 8px; 
+  cursor: pointer; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+/*ce css s'effectue lorsque le curseur est sur le boutton*/
+#diagnostic-btn:hover {
+  background-color: #45a049; 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+  transform: translateY(-2px); }
+
+
+/*ce css est effectuer losque le boutton est actif*/
+#diagnostic-btn:active {
+  background-color: #3e8e41; 
+  transform: translateY(0); 
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2); 
+}
+
+
+

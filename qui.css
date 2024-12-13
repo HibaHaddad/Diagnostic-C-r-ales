@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  background-image: url('Images/wallpaper.jpg'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  font-family: cursive;
+}
+.titre{
+  color: rgb(3, 84, 5);
+  margin-top: 30px;
+  padding-left: 400px;
+  font-size: 60px;
+  font-family: cursive;
+}
+
+footer{
+  margin-top: 170px;
+  margin-left: 30px;
+  font-size: 10px;
+}
+.def{
+  margin-top: 50px;
+  margin-left: 400px;
+  font-size: 24px;
+}
+.slogan{
+  margin-top: 40px;
+  margin-left: 400px;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: rgb(3, 84, 5);
+  padding-top:50px;
+  padding-bottom: 50px;
+  margin-right: 0px;
+  width: fit-content;
+  border-style: solid;
+  background-color: rgba(0, 128, 0, 0.329);
+  font-weight: bolder;
+  font-size: larger;
+  
+}
+.back-btn {
+  margin-top: 100px;
+  margin-left:400px;
+  width:150px;
+  background-color: #317d2b;
+  color: #f6f0f0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #bbb;
+}

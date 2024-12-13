@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100vh; 
+  background-image: url('Images/wallpaper.jpg'); /*ajouter une image comme arriére plan*/
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+}
+.titre {
+  color: rgb(3, 84, 5);
+  margin-top: 30px;
+  padding-left: 400px;
+  font-size: 60px;
+  font-family: cursive;
+}
+article {
+  font-family: cursive;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  padding-left: 400px;
+}
+a {
+  color: #234f14;
+  text-decoration:underline;
+  font-weight: bold;
+}
+/*losque le curseur est sur le lien il sera souligné*/
+a:hover {
+  text-decoration: underline;
+}
+.back-btn {
+  margin-top: 100px;
+  margin-left:400px;
+  width:150px;
+  background-color: #317d2b;
+  color: #f6f0f0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}

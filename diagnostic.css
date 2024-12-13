@@ -1,0 +1,271 @@
+body {
+  position:fixed;
+  margin: 0;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('Images/wallpaper.jpg');
+}
+
+
+.etape2{
+  margin-left: 500px;
+  margin-top: 50px;
+  margin-right: 20px;
+ 
+}
+.result{
+  margin-left:10px;
+  margin-top: 10px;
+  margin-right: 0px;
+  width: 300px;
+  padding-left: 60px;
+  height: fit-content;
+  background-color: #297316df;
+  color:#f4f1f1;
+  border-radius: 24px;
+}
+header.top-bar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.quit-btn {
+  background-color: #317d2b;
+  color: #f6f0f0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 850px;
+  margin-top: 5px;
+}
+
+.quit-btn:hover {
+  background-color: #bbb;
+}
+
+
+main.main-content {
+  display: flex;
+  flex: 1;
+  
+}
+
+.left-section {
+  flex: 1; 
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left-section .etape2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.progress-bar {
+  height: 7px;
+  background: #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 490px;
+}
+
+.progress-bar .progress {
+  width: 30%; 
+  height: 100%;
+  background: #F7C944; 
+  border-radius: 5px;
+}
+
+
+.back-btn {
+  margin-top: 370px;
+  margin-left:300px;
+  width:150px;
+  background-color: #317d2b;
+  color: #f6f0f0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #bbb;
+}
+.phrase{
+  font-size: 20px;
+  margin-top: 10px;
+  padding-top: 0px;
+  padding-left: 490px;
+
+
+}
+
+#grain,
+#epi,
+#panicule,
+#tige,
+#racine,
+#feuille,
+#plantules,
+#glumes,
+#basedetige{
+  display: flex;
+  align-items: center;  
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.grain-image,
+.epi-image,
+.panicule-image,
+.tige-image,
+.racine-image,
+.feuille-image,
+.plantules-image,
+.glumes-image,
+.basedetige-image{
+  width: 100px; 
+  height: 100px;
+  border-radius: 5px;
+  
+
+}
+.grain-image,
+#grain,
+#grainn{
+  position: fixed;
+  bottom:350px;
+  left:500px;
+}
+.grain-image:hover,
+.epi-image:hover,
+.panicule-image:hover,
+.tige-image:hover,
+.racine-image:hover,
+.feuille-image:hover,
+.plantules-image:hover,
+.glumes-image:hover,
+.basedetige-image:hover{
+  opacity: 0.5;
+}
+.grain-image:active,
+.epi-image:active,
+.panicule-image:active,
+.tige-image:active,
+.racine-image:active,
+.feuille-image:active,
+.plantules-image:active,
+.glumes-image:active,
+.basedetige-image:active{
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+#grainn{
+  padding-left: 40px;
+  top:380px;
+  left:490px;
+}
+#epii,
+#paniculee,
+#tigee,
+#racinee,
+#plantuless,
+#glumess,
+#basedetigee{
+  top:380px;
+  padding-left:40px;
+}
+#epii,
+.epi-image{
+  position: fixed;
+  bottom:350px;
+  left:630px;
+}
+.panicule-image,
+#panicule,
+#paniculee{
+  position:fixed;
+  bottom:350px;
+  left:770px;
+
+}
+#paniculee{
+  padding-left: 22px;
+}
+.tige-image,
+#tige,
+#tigee{
+  position:fixed;
+  bottom:350px;
+  left:910px;
+}
+.racine-image,
+#racine,
+#racinee{
+  position:fixed;
+  bottom:350px;
+  left:1042px;
+}
+#racinee{
+  padding-left:24px ;
+}
+.feuille-image,
+#feuille,
+#feuillee{
+  position:fixed;
+  bottom:200px;
+  left:580px;
+
+}
+#feuillee{
+  top:530px;
+  padding-left:22px;
+}
+.plantules-image,
+#plantules,
+#plantuless{
+  position:fixed;
+  bottom:200px;
+  left:700px;
+}
+#plantuless{
+  top:530px;
+  padding-left:22px;
+}
+.glumes-image,
+#glumes,
+#glumess{
+  position:fixed;
+  bottom:200px;
+  left:820px;
+}
+#glumess{
+  top:530px;
+  padding-left:22px;
+}
+.basedetige-image,
+#basetige,
+#basedetigee{
+  position:fixed;
+  bottom:200px;
+  left:950px;
+}
+#basedetigee{
+  top:530px;
+  padding-left:9px;
+}
+
+
+
+
+

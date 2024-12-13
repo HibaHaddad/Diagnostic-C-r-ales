@@ -1,0 +1,115 @@
+body{
+  position:fixed;
+  margin: 0;
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url('Images/wallpaper.jpg');
+}
+.progress-bar {
+  height: 7px;
+  width:20%;
+  background: #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 430px;
+  margin-right: 100px;
+  
+  
+}
+.progress-bar1{
+  height: 7px;
+  width:20%;
+  background: #ddd;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-left: 430px;
+  margin-right: 100px;
+}
+.progress-bar1 .progress1{
+  width: 100%; 
+  height: 100%;
+  background: #F7C944; 
+  border-radius: 5px;
+  margin-right: 430px;
+  margin-right: 100px;
+}
+
+.progress-bar .progress {
+  width: 60%; 
+  height: 100%;
+  
+  background: #F7C944; 
+  border-radius: 5px;
+  margin-right: 900px;
+  margin-right: 100px;
+  
+}
+
+.etape3 {
+  font-size: 20px;
+  margin-top: 160px;
+  margin-left: 440px;
+  font-weight: bolder;
+}
+.etape4{
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 450px;
+  font-weight: bolder;
+
+}
+.result-text ,
+.result-text1{
+  font-size: 24px;
+  color: #333;
+  font-weight: bold;
+}
+#result,
+#lutte {
+  font-size: 20px;
+  color: #333;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 30px; 
+}
+.res{
+  background-color: #36934195;
+  color: #000; 
+  width: 400px;
+  margin-top:20px;
+  margin-left: 430px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  display: inline-block;
+}
+.res1{
+  background-color: #36934195;
+  color: #000; 
+  width: 400px;
+  margin-top:10px;
+  margin-left: 430px;
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  display: inline-block;
+
+}
+
+.back-btn {
+  margin-top: 50px;
+  margin-left: 430px;
+  width:150px;
+  background-color: #317d2b;
+  color: #f6f0f0;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #bbb;
+}
